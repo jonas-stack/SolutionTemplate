@@ -1,9 +1,12 @@
+using Service;
+
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddControllers();
 builder.Services.AddProblemDetails();
 builder.Services.AddOpenApiDocument();
+builder.Services.AddSingleton<FruitService>();
 
 var app = builder.Build();
 

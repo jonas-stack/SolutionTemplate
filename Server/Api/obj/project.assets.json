@@ -724,6 +724,16 @@
             "related": ".xml"
           }
         }
+      },
+      "Service/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/Service.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Service.dll": {}
+        }
       }
     }
   },
@@ -2970,11 +2980,17 @@
         "yamldotnet.15.1.4.nupkg.sha512",
         "yamldotnet.nuspec"
       ]
+    },
+    "Service/1.0.0": {
+      "type": "project",
+      "path": "../Service/Service.csproj",
+      "msbuildProject": "../Service/Service.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0": [
-      "NSwag.AspNetCore >= 14.1.0"
+      "NSwag.AspNetCore >= 14.1.0",
+      "Service >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -3001,7 +3017,11 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Codeing\\Coding School\\WebApplications\\SolutionTemplate\\Server\\Service\\Service.csproj": {
+              "projectPath": "C:\\Codeing\\Coding School\\WebApplications\\SolutionTemplate\\Server\\Service\\Service.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

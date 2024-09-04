@@ -40,3 +40,5 @@ C:\Codeing\Coding School\WebApplications\SolutionTemplate\Server\Api\obj\Debug\n
 C:\Codeing\Coding School\WebApplications\SolutionTemplate\Server\Api\obj\Debug\net8.0\Api.pdb
 C:\Codeing\Coding School\WebApplications\SolutionTemplate\Server\Api\obj\Debug\net8.0\Api.genruntimeconfig.cache
 C:\Codeing\Coding School\WebApplications\SolutionTemplate\Server\Api\obj\Debug\net8.0\ref\Api.dll
+C:\Codeing\Coding School\WebApplications\SolutionTemplate\Server\Api\bin\Debug\net8.0\Service.dll
+C:\Codeing\Coding School\WebApplications\SolutionTemplate\Server\Api\bin\Debug\net8.0\Service.pdb

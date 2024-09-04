@@ -1,0 +1,12 @@
+C:\Codeing\Coding School\WebApplications\SolutionTemplate\Server\Service\bin\Debug\net8.0\Service.deps.json
+C:\Codeing\Coding School\WebApplications\SolutionTemplate\Server\Service\bin\Debug\net8.0\Service.dll
+C:\Codeing\Coding School\WebApplications\SolutionTemplate\Server\Service\bin\Debug\net8.0\Service.pdb
+C:\Codeing\Coding School\WebApplications\SolutionTemplate\Server\Service\obj\Debug\net8.0\Service.GeneratedMSBuildEditorConfig.editorconfig
+C:\Codeing\Coding School\WebApplications\SolutionTemplate\Server\Service\obj\Debug\net8.0\Service.AssemblyInfoInputs.cache
+C:\Codeing\Coding School\WebApplications\SolutionTemplate\Server\Service\obj\Debug\net8.0\Service.AssemblyInfo.cs
+C:\Codeing\Coding School\WebApplications\SolutionTemplate\Server\Service\obj\Debug\net8.0\Service.csproj.CoreCompileInputs.cache
+C:\Codeing\Coding School\WebApplications\SolutionTemplate\Server\Service\obj\Debug\net8.0\Service.sourcelink.json
+C:\Codeing\Coding School\WebApplications\SolutionTemplate\Server\Service\obj\Debug\net8.0\Service.dll
+C:\Codeing\Coding School\WebApplications\SolutionTemplate\Server\Service\obj\Debug\net8.0\refint\Service.dll
+C:\Codeing\Coding School\WebApplications\SolutionTemplate\Server\Service\obj\Debug\net8.0\Service.pdb
+C:\Codeing\Coding School\WebApplications\SolutionTemplate\Server\Service\obj\Debug\net8.0\ref\Service.dll
