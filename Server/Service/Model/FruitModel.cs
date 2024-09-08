@@ -20,12 +20,17 @@ namespace Service
         public class FruitService
         {
             private readonly List<Fruit> _fruits = new();
+            private int _nextId = 1;
 
             public IEnumerable<Fruit> GetAll() => _fruits;
 
             public Fruit? GetById(int id) => _fruits.FirstOrDefault(f => f.Id == id);
 
-            public void Add(Fruit fruit) => _fruits.Add(fruit);
+            public void Add(Fruit fruit)
+            {
+                fruit.Id = _nextId++;
+                _fruits.Add(fruit);
+            }
 
             public void Update(Fruit fruit)
             {
