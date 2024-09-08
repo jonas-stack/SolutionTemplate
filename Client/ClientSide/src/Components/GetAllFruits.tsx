@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import {Api, Fruit} from '../Api'; // Adjust the import path as necessary
+import { Api, Fruit } from '../Api'; // Adjust the import path as necessary
 
 const GetAllFruits: React.FC = () => {
     const [fruits, setFruits] = useState<Fruit[]>([]);
@@ -23,7 +23,9 @@ const GetAllFruits: React.FC = () => {
             <h1>All Fruits</h1>
             <ul>
                 {fruits.map((fruit) => (
-                    <li key={fruit.id}>{fruit.name}</li>
+                    <li key={fruit.id}>
+                        ID: {fruit.id}, Name: {fruit.name}, Price: {fruit.price}
+                    </li>
                 ))}
             </ul>
         </div>
