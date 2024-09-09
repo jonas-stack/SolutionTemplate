@@ -1,0 +1,24 @@
+﻿GET http://localhost:5160/api/Fruit
+
+###
+
+POST http://localhost:5160/api/Fruit
+Content-Type: application/json
+
+{
+  "fruitName": "My Fruit"
+}
+
+###
+
+PUT http://localhost:5160/api/Fruit/1
+Content-Type: application/json
+
+{
+  "id": 1,
+  "fruitName": "Updated Fruit"
+}
+
+###
+
+DELETE http://localhost:5160/api/Fruit/4
